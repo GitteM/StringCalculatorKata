@@ -12,17 +12,11 @@ class StringCalculator {
     
     func add(string : String) -> Int {
         
-        var result = 0
+        if isEmpty(string) { return 0 }
         
-        if countElements(string) != 0 {
-            let array = string.componentsSeparatedByString(",")
-            
-            var intArray = [Int]()
-            for value in array {
-                intArray.append(value.toInt()!)
-            }
-            result = reduce(intArray, 0) {$0 + $1}
-        }
-        return result
+        let array = string.componentsSeparatedByString(",")
+        let intArray = array.map { $0.toInt() }
+        
+        return reduce(intArray, 0) { $0 + $1! }
     }
 }
