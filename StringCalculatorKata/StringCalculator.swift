@@ -13,20 +13,15 @@ class StringCalculator {
     func add(string : String) -> Int {
         
         var result = 0
-        let cnt = countElements(string)
         
-        if cnt != 0 {
-            let oddNumbers = Array(filter(1...cnt) {$0 % 2 != 0})
+        if countElements(string) != 0 {
+            let array = string.componentsSeparatedByString(",")
             
-            if contains(oddNumbers, cnt) {
-                let array = string.componentsSeparatedByString(",")
-                var intArray = [Int]()
-                
-                for value in array {
-                    intArray.append(value.toInt()!)
-                }
-                result = reduce(intArray, 0) {$0 + $1}
+            var intArray = [Int]()
+            for value in array {
+                intArray.append(value.toInt()!)
             }
+            result = reduce(intArray, 0) {$0 + $1}
         }
         return result
     }
