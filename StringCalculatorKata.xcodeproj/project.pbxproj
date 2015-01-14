@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECAD242F1A66BD5E00DF6B73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD242E1A66BD5E00DF6B73 /* AppDelegate.swift */; };
+		ECAD244F1A66BEB300DF6B73 /* StringCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD244E1A66BEB300DF6B73 /* StringCalculator.swift */; };
+		ECDCC4071A66BFB600992EBA /* StringCalculatorKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD24441A66BD5E00DF6B73 /* StringCalculatorKataTests.swift */; };
+		ECDCC4081A66BFBC00992EBA /* StringCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD244E1A66BEB300DF6B73 /* StringCalculator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECAD243F1A66BD5E00DF6B73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECAD24211A66BD5E00DF6B73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECAD24281A66BD5E00DF6B73;
+			remoteInfo = StringCalculatorKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECAD24291A66BD5E00DF6B73 /* StringCalculatorKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StringCalculatorKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAD242D1A66BD5E00DF6B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAD242E1A66BD5E00DF6B73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECAD243E1A66BD5E00DF6B73 /* StringCalculatorKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringCalculatorKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAD24431A66BD5E00DF6B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAD24441A66BD5E00DF6B73 /* StringCalculatorKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCalculatorKataTests.swift; sourceTree = "<group>"; };
+		ECAD244E1A66BEB300DF6B73 /* StringCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCalculator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECAD24261A66BD5E00DF6B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAD243B1A66BD5E00DF6B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECAD24201A66BD5E00DF6B73 = {
+			isa = PBXGroup;
+			children = (
+				ECAD242B1A66BD5E00DF6B73 /* StringCalculatorKata */,
+				ECAD24411A66BD5E00DF6B73 /* StringCalculatorKataTests */,
+				ECAD242A1A66BD5E00DF6B73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECAD242A1A66BD5E00DF6B73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD24291A66BD5E00DF6B73 /* StringCalculatorKata.app */,
+				ECAD243E1A66BD5E00DF6B73 /* StringCalculatorKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECAD242B1A66BD5E00DF6B73 /* StringCalculatorKata */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD244E1A66BEB300DF6B73 /* StringCalculator.swift */,
+				ECAD242E1A66BD5E00DF6B73 /* AppDelegate.swift */,
+				ECAD242C1A66BD5E00DF6B73 /* Supporting Files */,
+			);
+			path = StringCalculatorKata;
+			sourceTree = "<group>";
+		};
+		ECAD242C1A66BD5E00DF6B73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD242D1A66BD5E00DF6B73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECAD24411A66BD5E00DF6B73 /* StringCalculatorKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD24441A66BD5E00DF6B73 /* StringCalculatorKataTests.swift */,
+				ECAD24421A66BD5E00DF6B73 /* Supporting Files */,
+			);
+			path = StringCalculatorKataTests;
+			sourceTree = "<group>";
+		};
+		ECAD24421A66BD5E00DF6B73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD24431A66BD5E00DF6B73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECAD24281A66BD5E00DF6B73 /* StringCalculatorKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAD24481A66BD5E00DF6B73 /* Build configuration list for PBXNativeTarget "StringCalculatorKata" */;
+			buildPhases = (
+				ECAD24251A66BD5E00DF6B73 /* Sources */,
+				ECAD24261A66BD5E00DF6B73 /* Frameworks */,
+				ECAD24271A66BD5E00DF6B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StringCalculatorKata;
+			productName = StringCalculatorKata;
+			productReference = ECAD24291A66BD5E00DF6B73 /* StringCalculatorKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECAD243D1A66BD5E00DF6B73 /* StringCalculatorKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAD244B1A66BD5E00DF6B73 /* Build configuration list for PBXNativeTarget "StringCalculatorKataTests" */;
+			buildPhases = (
+				ECAD243A1A66BD5E00DF6B73 /* Sources */,
+				ECAD243B1A66BD5E00DF6B73 /* Frameworks */,
+				ECAD243C1A66BD5E00DF6B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECAD24401A66BD5E00DF6B73 /* PBXTargetDependency */,
+			);
+			name = StringCalculatorKataTests;
+			productName = StringCalculatorKataTests;
+			productReference = ECAD243E1A66BD5E00DF6B73 /* StringCalculatorKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECAD24211A66BD5E00DF6B73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Fontera;
+				TargetAttributes = {
+					ECAD24281A66BD5E00DF6B73 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					ECAD243D1A66BD5E00DF6B73 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = ECAD24281A66BD5E00DF6B73;
+					};
+				};
+			};
+			buildConfigurationList = ECAD24241A66BD5E00DF6B73 /* Build configuration list for PBXProject "StringCalculatorKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECAD24201A66BD5E00DF6B73;
+			productRefGroup = ECAD242A1A66BD5E00DF6B73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECAD24281A66BD5E00DF6B73 /* StringCalculatorKata */,
+				ECAD243D1A66BD5E00DF6B73 /* StringCalculatorKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECAD24271A66BD5E00DF6B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAD243C1A66BD5E00DF6B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECAD24251A66BD5E00DF6B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAD244F1A66BEB300DF6B73 /* StringCalculator.swift in Sources */,
+				ECAD242F1A66BD5E00DF6B73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAD243A1A66BD5E00DF6B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDCC4081A66BFBC00992EBA /* StringCalculator.swift in Sources */,
+				ECDCC4071A66BFB600992EBA /* StringCalculatorKataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECAD24401A66BD5E00DF6B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECAD24281A66BD5E00DF6B73 /* StringCalculatorKata */;
+			targetProxy = ECAD243F1A66BD5E00DF6B73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECAD24461A66BD5E00DF6B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECAD24471A66BD5E00DF6B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECAD24491A66BD5E00DF6B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StringCalculatorKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECAD244A1A66BD5E00DF6B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StringCalculatorKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECAD244C1A66BD5E00DF6B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StringCalculatorKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StringCalculatorKata.app/StringCalculatorKata";
+			};
+			name = Debug;
+		};
+		ECAD244D1A66BD5E00DF6B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StringCalculatorKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StringCalculatorKata.app/StringCalculatorKata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECAD24241A66BD5E00DF6B73 /* Build configuration list for PBXProject "StringCalculatorKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAD24461A66BD5E00DF6B73 /* Debug */,
+				ECAD24471A66BD5E00DF6B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAD24481A66BD5E00DF6B73 /* Build configuration list for PBXNativeTarget "StringCalculatorKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAD24491A66BD5E00DF6B73 /* Debug */,
+				ECAD244A1A66BD5E00DF6B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAD244B1A66BD5E00DF6B73 /* Build configuration list for PBXNativeTarget "StringCalculatorKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAD244C1A66BD5E00DF6B73 /* Debug */,
+				ECAD244D1A66BD5E00DF6B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECAD24211A66BD5E00DF6B73 /* Project object */;
+}
